@@ -1,0 +1,6 @@
+R1.4 - minus 1 mark - does not send a 404 status if a recipe is not found
+R1.6 - minus 1 mark - does not send a 400 status if a recipe without a name is submitted
+
+18/20
+
+Marked by William Croft

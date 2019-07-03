@@ -1,0 +1,30 @@
+
+head
+	link(rel="stylesheet", href="/style.css")
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+	script(src="/recipePage.js")
+	
+	
+
+body
+	h3: COMP 2406 A5 RECIPES
+	h3 RECIPES:
+	select(id="recipeSelect")
+	button(type="button" id="view") view
+	button(type="button" id="submit") submit
+	
+	form Name:
+		div(type="text" name="firstname" id="name" contenteditable="true")
+	
+	form Duration:
+		div(type="text" name="firstname" id="duration" contenteditable="true")
+	
+	h3 INGREDIENTS:
+	div(id="ingredients" contenteditable="true")
+	
+	h3 STEPS:
+	div(id="steps" contenteditable="true")
+	
+	h3 NOTES:
+	div(id="notes" contenteditable="true")
+	
